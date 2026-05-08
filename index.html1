@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>مشروعنا السحابي</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background-color: #f4f6f9;
+    text-align: center;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #0d6efd;
+    color: white;
+    padding: 30px;
+}
+
+.container{
+    margin: 40px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    font-size: 40px;
+}
+
+.members{
+    line-height: 2;
+    font-size: 20px;
+}
+
+img{
+    width: 60%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 30px;
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>مرحباً بكم في مشروعنا السحابي</h1>
+    <p>تم إنشاء هذا الموقع باستخدام GitHub Pages</p>
+</header>
+
+<div class="container">
+
+    <h2>أعضاء المجموعة</h2>
+
+    <div class="members">
+        فراس حسين علي خواجي<br>
+        عبدالرحمن عيسى يحيى عسيلي<br>
+        علي عبدالله علي عياشي 
+        ناصر إبراهيم محمد الطحمي
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200" alt="صورة فضاء">
+
+</div>
+
+<footer>
+    جميع الحقوق محفوظة © 2025
+</footer>
+
+</body>
+</html>
