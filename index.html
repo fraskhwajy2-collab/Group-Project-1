@@ -4,54 +4,93 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>مشروعنا السحابي</title>
+<title>مدينة جازان</title>
 
 <style>
 
 body{
-    font-family: Arial;
-    background-color: #f4f6f9;
-    text-align: center;
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
     direction: rtl;
-    margin: 0;
-    padding: 0;
+    background-color:#f4f4f4;
+    color:#333;
 }
 
 header{
-    background: #0d6efd;
-    color: white;
-    padding: 30px;
+    background:#00695c;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
 }
 
 .container{
-    margin: 40px auto;
-    width: 80%;
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width:90%;
+    margin:auto;
+    padding:20px;
 }
 
-h1{
-    font-size: 40px;
+.section{
+    background:white;
+    margin-top:25px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.section h2{
+    color:#00695c;
+    margin-bottom:15px;
 }
 
 .members{
-    line-height: 2;
-    font-size: 20px;
+    line-height:2;
+    font-size:20px;
 }
 
-img{
-    width: 60%;
-    border-radius: 15px;
-    margin-top: 20px;
+.places{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.card{
+    width:300px;
+    background:#fafafa;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 0 8px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px;
+    color:#00695c;
+}
+
+.card p{
+    margin:15px;
+    font-size:15px;
+    line-height:1.7;
 }
 
 footer{
-    margin-top: 30px;
-    background: #222;
-    color: white;
-    padding: 15px;
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
 }
 
 </style>
@@ -60,27 +99,82 @@ footer{
 <body>
 
 <header>
-    <h1>مرحباً بكم في مشروعنا السحابي</h1>
-    <p>تم إنشاء هذا الموقع باستخدام GitHub Pages</p>
+    <h1>مرحباً بكم في موقع مدينة جازان</h1>
+    <p>مشروع الحوسبة السحابية باستخدام GitHub Pages</p>
 </header>
 
 <div class="container">
 
-    <h2>أعضاء المجموعة</h2>
+    <!-- أعضاء المجموعة -->
+    <div class="section">
+        <h2>أعضاء المجموعة</h2>
 
-    <div class="members">
-        فراس حسين علي خواجي<br>
-        عبدالرحمن عيسى يحيى عسيلي<br>
-        علي عبدالله علي عياشي 
-        ناصر إبراهيم محمد الطحمي
+        <div class="members">
+            فراس حسين علي خواجي<br>
+            عبدالرحمن عيسى يحي سبعي<br>
+            علي عبدالله علي عياشي
+            ناصر إبراهيم محمد الطحمي
+        </div>
     </div>
 
-    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200" alt="صورة فضاء">
+    <!-- تعريف جازان -->
+    <div class="section">
+        <h2>نبذة عن مدينة جازان</h2>
+
+        <p style="line-height:2; font-size:18px;">
+            تُعد جازان من أجمل مدن المملكة العربية السعودية، وتقع في الجزء الجنوبي الغربي
+            على ساحل البحر الأحمر. تتميز بطبيعتها الخلابة وجبالها وأسواقها الشعبية
+            وجزرها السياحية الرائعة مثل جزر فرسان. كما تشتهر بالأجواء المعتدلة
+            والزراعة والثقافة البحرية الغنية.
+        </p>
+    </div>
+
+    <!-- الأماكن السياحية -->
+    <div class="section">
+        <h2>أشهر الأماكن السياحية في جازان</h2>
+
+        <div class="places">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200" alt="جزر فرسان">
+
+                <h3>جزر فرسان</h3>
+
+                <p>
+                    من أجمل الجزر السياحية في المملكة وتتميز بالمياه الصافية
+                    والشواطئ الرملية والطبيعة البحرية الرائعة.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200" alt="جبال فيفا">
+
+                <h3>جبال فيفا</h3>
+
+                <p>
+                    منطقة جبلية ساحرة تشتهر بالمدرجات الزراعية والطقس الجميل
+                    والمناظر الطبيعية الخلابة.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200" alt="كورنيش جازان">
+
+                <h3>كورنيش جازان</h3>
+
+                <p>
+                    واجهة بحرية رائعة مناسبة للتنزه والاستمتاع بغروب الشمس
+                    والأجواء البحرية الجميلة.
+                </p>
+            </div>
+
+        </div>
+    </div>
 
 </div>
 
 <footer>
-    جميع الحقوق محفوظة © 2025
+    © 2025 مشروع مدينة جازان
 </footer>
 
 </body>
